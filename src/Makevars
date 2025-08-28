@@ -1,4 +1,4 @@
 CXX_STD = CXX11
 PKG_CXXFLAGS= $(SHLIB_OPENMP_CXXFLAGS)
 PKG_CFLAGS=$(SHLIB_OPENMP_CFLAGS)
-PKG_LIBS=-lboost_filesystem   -lstdc++  -L/opt/homebrew/Cellar/boost/1.89.0/lib/
+PKG_LIBS=-lboost_filesystem   -lstdc++  -LC:\boost_1_89_0
