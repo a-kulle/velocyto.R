@@ -1,4 +1,4 @@
 CXX_STD = CXX11
 PKG_CXXFLAGS= $(SHLIB_OPENMP_CXXFLAGS)
 PKG_CFLAGS=$(SHLIB_OPENMP_CFLAGS)
-PKG_LIBS=   -lstdc++  -L"C:/Program Files/boost_1_89_0/libs/filesystem/"
+PKG_LIBS=  -lstdc++ $(LAPACK_LIBS) $(BLAS_LIBS)  $(SHLIB_OPENMP_CFLAGS) $(FLIBS) -L"C:/Program Files/boost_1_89_0/libs/filesystem/"
